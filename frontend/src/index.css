@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-greenz: #cfffe5;
+  --color-peachz: #ffe5b4;
+}
