@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { createUser } from "../services/userService";
+import { createUser } from "../services/userServiceAPI";
 
 const UserForm = ({ onUserAdded }) => {
   const [name, setName] = useState("");

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { getUsers, deleteUser } from "../services/userService";
+import { getUsers, deleteUser } from "../services/userServiceAPI";
 
 const UserList = ({ userAdded, showDelete = false, showEdit = false }) => {
   const [users, setUsers] = useState([]);

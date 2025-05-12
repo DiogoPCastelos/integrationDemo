@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Navbar } from "../components";
-import { getUsers, updateUser } from "../services/userService";
+import { getUsers, updateUser } from "../services/userServiceAPI";
 
 const EditPage = () => {
   const { userId } = useParams();
